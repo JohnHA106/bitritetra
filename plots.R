@@ -19,3 +19,10 @@ op2 + geom_vline(xintercept = 15.3) + #biose
   geom_vline(xintercept =  21.56) + #triose
   geom_vline(xintercept = 28.86) + #hexaose
   geom_vline(xintercept = 24.8) # tetraose
+
+opanno <- op2 + geom_vline(xintercept = 15.3) + #biose
+  geom_vline(xintercept = 5.29) + #glucose
+  geom_vline(xintercept =  21.56) + #triose
+  geom_vline(xintercept = 28.86) + #hexaose
+  geom_vline(xintercept = 24.8) # tetraose
+
