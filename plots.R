@@ -10,7 +10,7 @@ triose
 oligoplot <- ggplot(long, aes(x = time, y = nc, col = oligo)) + geom_line(lwd = 1)
 oligoplot
 
-op2 <- oligoplot + xlim(c(7, 40)) + ylim(c(0, 750)) + theme_bw() + ylab("Charge difference, nC") + xlab("Time, mins")
+op2 <- oligoplot + xlim(c(4, 40)) + ylim(c(0, 750)) + theme_bw() + ylab("Charge difference, nC") + xlab("Time, mins")
 op2
 write.csv(long, file = "longtablerawdata.csv")
 ##add in lines for standards
